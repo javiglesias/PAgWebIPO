@@ -1,6 +1,4 @@
-function refresh()
+function cambioCSS(css_title)
 {
-    var disenio = document.getElementById("disenio").src;
-    location.reload();
-    document.getElementById("diseenio").href = "disenio1.css";
+
 }

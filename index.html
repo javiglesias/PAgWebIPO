@@ -1,18 +1,21 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link id="disenio" rel="stylesheet" type="text/css" href="disenio1.css">
+        <link id="disenio" title="Style1" rel="stylesheet" type="text/css" href="disenio1.css">
+        <link id="disenio2" title="Style2" rel="alternate stylesheet" type="text/css" href="disenio2.css">
         <script src="actualizarDesign.js"></script>
         <title>Javier Iglesias Sanz</title>
     </head>
     <body>
-        <button id="boton" onclick="refresh()">disenio1</button>
+        <button id="boton" onclick="cambioCSS('Style1')">Style1</button>
+        <button id="boton" onclick="cambioCSS('Style2')">Style2</button>
         <h1>Javier Iglesias Sanz</h1>
         <div id="presentacion">
-            <p>
+            <p id="penne">
                 Soy estudiante de la Universidad de Salamanca.<br>
                 Estudio el Grado en Ingenieria Informatica.<br><br>
             </p>
-        </div>
+    <div id="der">     
         <div id="aficiones">
             <h2>Aficiones</h2>
             <p>
@@ -43,6 +46,7 @@
                 JavaScript Basico.<br>
             </p>
         </div>
+    </div>  
         <div id="metas">
             <h2>Metas</h2>
             <p>
@@ -60,7 +64,7 @@
             <a href="http://facebook.com/igle116"><img id="fb" src="Facebook.jpg"></a>
             <a href="http://github.com/javiglesias"><img id="github" src="github.jpg"></a>
             <a href="http://google.com"><img id="g+" src="G+.png"></a>
-            <a href="http://about.me/igle116"><img id="about.me" src="about.me.png"></a>
+            <a href="http://about.me/igle"><img id="about.me" src="about.me.png"></a>
         </div>
     </body>
 </html>

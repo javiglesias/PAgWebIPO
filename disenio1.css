@@ -1,5 +1,196 @@
+html
+{
+    background-image: url("http://wallpics4k.com/wp-content/uploads/2014/06/landscape_city_night_building_manhatton_ultrahd_4k_wallpaper.jpg");
+   #display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+body
+{
+}
 img
 {
-    width: 10%;
-    height: 10%;
+    width: 40px;
+    height: 40px;
+}
+H1
+{
+    text-shadow: 2pt 6pt 6pt green;
+}
+
+h2:hover
+{
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P
+{
+    #text-align: center;
+    color: yellow;
+}
+
+#penne
+{
+    text-align: right;
+}
+
+h1
+{
+    font-family: sans-serif;
+    font-size: 50pt;
+}
+h2
+{
+    font-family: monospace;
+    font-size: 25pt;
+}
+#der 
+{
+    float: left;
+    position: relative;
+    width: 50%;   
+}
+#metas
+{
+    float: right;
+    position: relative;
+    width: 50%;
 }
