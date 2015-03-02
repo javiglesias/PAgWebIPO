@@ -1,4 +1,4 @@
-function cambioCSS(css_title)
+function cambioCSS(id)
 {
-
+  var etiqueta = document.getElementById(id);
 }
