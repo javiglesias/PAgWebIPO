@@ -17,7 +17,22 @@ img
 }
 p
 {
+    margin: 2cm;
     border-width: 2;
     border-style: dashed;
     border-color: blue;
+}
+body
+{
+    border-width: 3;
+    border-style: ridge;
+    border-color: crimson;
+}
+h2
+{
+    margin-left: 5cm;
+}
+html
+{
+    background-color: #A3895F;
 }
