@@ -8,31 +8,17 @@ img
 {
     text-shadow: 2pt 6pt 6pt green;
     text-align: center;
-    font-family: fantasy;
-    font-style: oblique;
-    font-variant: small-caps;
-    border-color: red;
-    border-width: 2;
-    border-style: groove;
-}
-p
-{
-    margin: 2cm;
-    border-width: 2;
-    border-style: dashed;
-    border-color: blue;
-}
-body
-{
-    border-width: 3;
-    border-style: ridge;
-    border-color: crimson;
-}
-h2
-{
-    margin-left: 5cm;
+    
 }
 html
 {
     background-color: #A3895F;
+    font-variant: small-caps;
+}
+#header_aficiones
+{
+    background-color: lightblue;
+    height: 30pt;
+    width: 20%;
+    text-align: center;
 }
