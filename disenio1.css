@@ -1,4 +1,4 @@
-/*Estilo Formal*/
+/*Estilo METRO*/
 img
 {
     width: 40px;
@@ -6,14 +6,11 @@ img
 }
 #header
 {
-    text-shadow: 2pt 6pt 6pt green;
+    color: white;
+    text-shadow: 2pt 6pt 6pt yellow;
     text-align: center;
-    font-family: fantasy;
-    font-style: oblique;
+    font-family: helvetica;
     font-variant: small-caps;
-    border-color: red;
-    border-width: 2;
-    border-style: groove;
 }
 p
 {
@@ -21,6 +18,7 @@ p
     border-width: 2;
     border-style: dashed;
     border-color: blue;
+    color: white;
 }
 body
 {
@@ -31,8 +29,14 @@ body
 h2
 {
     margin-left: 5cm;
+    color: white;
 }
 html
 {
-    background-color: #A3895F;
+    background-color: black;
+    color: white;
+}
+#aficiones
+{
+    background-color: aqua;
 }
