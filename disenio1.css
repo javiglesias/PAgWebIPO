@@ -9,6 +9,7 @@ img
     color: white;
     text-shadow: 2pt 6pt 6pt yellow;
     text-align: center;
+<<<<<<< HEAD
     font-family: helvetica;
     font-variant: small-caps;
 }
@@ -39,4 +40,19 @@ html
 #aficiones
 {
     background-color: aqua;
+=======
+    
+}
+html
+{
+    background-color: #A3895F;
+    font-variant: small-caps;
+}
+#header_aficiones
+{
+    background-color: lightblue;
+    height: 30pt;
+    width: 20%;
+    text-align: center;
+>>>>>>> origin/master
 }
