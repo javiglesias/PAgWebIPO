@@ -58,12 +58,3 @@ h2
     width: 70%;
     height: auto;
 }
-
-#pdf
-{
-    width: 70%;
-    height: 500px;
-    right: 0;
-    position: sticky;
-    left: 30%;
-}

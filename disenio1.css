@@ -21,10 +21,10 @@ img
     font-variant: small-caps;
     text-shadow: 2pt 6pt 6pt yellow;
     background-color: rgba(14, 66, 163, 0.4);
-    width: 1000px;
-    height: 200px;
     position: sticky;
     left: 25%;
+    width: 70%;
+    height: auto;
     
 }
 
@@ -61,11 +61,3 @@ html
     
 }
 
-#pdf
-{
-    width: 70%;
-    height: 500px;
-    right: 0;
-    position: sticky;
-    left: 30%;
-}
