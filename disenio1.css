@@ -9,6 +9,8 @@ img
     color: white;
     text-shadow: 2pt 6pt 6pt yellow;
     text-align: center;
+<<<<<<< HEAD
+    font-family: helvetica;
     font-variant: small-caps;
 }
 p
@@ -34,7 +36,6 @@ html
 {
     background-color: black;
     color: white;
-     font-family: "helvetica";
 }
 #aficiones
 {
