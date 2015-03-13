@@ -28,6 +28,11 @@ img
     font-variant: small-caps;
     text-shadow: 2pt 6pt 6pt yellow;
     background-color: rgba(14, 66, 163, 0.4);
+    width: 1000px;
+    height: 200px;
+    position: sticky;
+    left: 300px;
+    
 }
 
 p
@@ -55,5 +60,10 @@ html
 
 #Aptitudes, #Metas
 {
+    position: sticky;
+    left: 300px;
+    width: 1000px;
+    height: auto;
     background-color: rgba(36, 129, 170, 0.4);
+    
 }
