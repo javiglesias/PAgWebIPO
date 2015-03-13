@@ -45,8 +45,8 @@ h2
 {
     background-color: rgba(255,255,255,0.3);
     position: sticky;
-    left: 25%;
-    width: 70%;
+    left: 300px;
+    width: 1000px;
     height: auto;
 }
 
@@ -54,16 +54,7 @@ h2
 {
      background-color: rgba(255,255,255,0.3);
     position: sticky;
-    left: 25%;
-    width: 70%;
+    left: 300px;
+    width: 1000px;
     height: auto;
-}
-
-#pdf
-{
-    width: 70%;
-    height: 500px;
-    right: 0;
-    position: sticky;
-    left: 30%;
 }
