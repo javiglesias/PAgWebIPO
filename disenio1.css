@@ -23,6 +23,8 @@ img
     background-color: rgba(14, 66, 163, 0.4);
     position: sticky;
     left: 15%;
+    -webkit-transform: translateX(15%);
+    -moz-transform: translateX(15%);
     width: 70%;
     height: auto;
     
@@ -54,6 +56,8 @@ html
 #Aptitudes, #Metas
 {
     position: sticky;
+    -webkit-transform: translateX(15%);
+    -moz-transform: translateX(15%);
     left: 15%;
     width: 70%;
     height: auto;
