@@ -1,70 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head id="Head">
+        <meta charset="UTF-8">
         <link id="disenio" title="Style1" rel="stylesheet" type="text/css" 
               href="disenio1.css">
-        <script src="actualizarDesign.js"></script>
-        <title>Javier Iglesias Sanz</title>
+        <script>
+            var x = document.getElementById("disenio");
+            function CambioCSS1()
+            {
+                x.href="disenio1.css";
+            }
+            function CambioCSS2()
+            {
+                x.href="disenio2.css";
+            }
+            function CambioCSS3()
+            {
+                x.href="disenio3.css";
+            }
+        </script>
+        <title>about: Javier Iglesias Sanz</title>
     </head>
     <body>
-        <button id="StyleFormal" onclick="cambioCSS('Style1')">Formal</button>
-        <button id="StyleManga" onclick="cambioCSS('Style2')">Manga</button>
-        <button id="StyleOriginal" onclick="cambioCSS('Style3')">Original</button>
-        <div id="header">
+        <div id="CambioCSS">  
+                <button id="Formal" onClick="CambioCSS1()">Formal</button>
+                <button id="Manga" onClick="CambioCSS2()">Aficiones</button>
+                <button id="Original" onClick="CambioCSS3()">Original</button>
+        </div>
+        <div id="Intro">
             <h1>Javier Iglesias Sanz</h1>
-                    Soy estudiante de la Universidad de Salamanca.<br>
-                    Estudio el Grado en Ingenieria Informatica.<br><br>
-        </div>   
-            <div id="aficiones">
-                <div id="header_aficiones">
-                <h2>Aficiones</h2>
+        <p>Soy estudiante de la Universidad de Salamanca.<br>
+                    Estudio el Grado en Ingenieria Informatica.<br>
+                    Miembro de ACM USAL Chapter.<br><br></p>
+        </div>
+            <div class="Informacion">
+                <div id="Aficiones">
+                   <h2>Aficiones</h2>
+                    <p>
+                        Pyxel Art<br>
+                        Crear historias para Videojuegos.<br>
+                        Dibujar.<br>
+                        Cocinar.<br>
+                        Leer Libros de Aventuras Medievales Fantásticas<br>
+                        Ver Series Relacionadas Con La Informática.<br>
+                    </p>
                 </div>
-                <p hidden="true">
-                    Mis aficiones son:<br>
-                    Diseniar videojuegos.<br>
-                    Crear historias para Videjuegos.<br>
-                    Dibujar.<br>
-                    Programar.<br>
-                    Cocinar.<br>
-                    Ver Anime.<br>
-                    Leer Libros de Aventuras Medievales Fantasticas<br>
-                    Ver Series Relacionadas Con La Infromatica.<br>
-                </p>
-            </div>
-            <div id="aptitudes">
-                <h2>Aptitudes</h2>
-                <p hidden="true">
-                    Java Avanzado.<br>
-                    C Avanzado.<br>
-                    Python Basico.<br>
-                    Perl Basico.<br>
-                    C++ Basico.<br>
-                    C# Basico.<br>
-                    Ruby Basico.<br>
-                    LUA Basico.<br>
-                    HTML Avanzdo.<br>
-                    CSS Basico.<br>
-                    JavaScript Basico.<br>
-                </p>
-            </div>
-            <div id="Metas">
-                <h2>Metas</h2>
-                <p hidden="true">
-                    Crear mi propia empresa de videjuegos.<br>
-                    Crear la historia de un videojuego.<br>
-                    Viajar a Japon.<br>
-                    Vivir en Noruega.<br>
-                    Trabajar para una gran empresa de videojuegos.<br>
-                    Aprender todo lo que pueda de lo que me gusta.<br>
-                </p>
+
+                <div id="Aptitudes">
+                    <h2>Aptitudes</h2>
+                    <p>
+                        Java Avanzado.<br>
+                        C Avanzado.<br>
+                        Python Básico.<br>
+                        Perl Básico.<br>
+                        C++ Básico.<br>
+                        C# Básico.<br>
+                        LUA Básico.<br>
+                        HTML Básico.<br>
+                        CSS Básico.<br>
+                        JavaScript Básico.<br>
+                    </p>
+                </div>
+
+                <div id="Metas">
+                    <h2>Metas</h2>
+                    <p>
+                        Crear mi propia empresa de videojuegos.<br>
+                        Crear la historia de un videojuego.<br>
+                        Viajar a Japon.<br>
+                        Vivir en Noruega.<br>
+                        Trabajar para una gran empresa de videojuegos.<br>
+                    </p>
+                </div> 
             </div>
             <div id="Contacto">
-                <h3>Contacto</h3>
-                <a href="http://twitter.com/igle116"><img id="twitter" src="twitter.jpg" ></a>
-                <a href="http://facebook.com/igle116"><img id="fb" src="Facebook.jpg"></a>
-                <a href="http://github.com/javiglesias"><img id="github" src="github.jpg"></a>
+                <h3>Contacta conmigo</h3>
+                <a href="http://twitter.com/igle116"><img id="twitter" src="twitter.png"></a>
+                <a href="http://facebook.com/igle116"><img id="fb" src="Facebook.png"></a>
+                <a href="http://github.com/javiglesias"><img id="github" src="github.png"></a>
                 <a href="http://google.com"><img id="g+" src="G+.png"></a>
                 <a href="http://about.me/igle"><img id="about.me" src="about.me.png"></a>
+                <a href="http://acm.usal.org"><img id="about.me" src="ACM.jpg"></a>
             </div>
     </body>
 </html>
